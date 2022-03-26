@@ -1,17 +1,22 @@
 {
-  "name": "portfolio",
+  "name": "src",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "dev": "mix",
+    "start": "mix",
     "build": "mix --production"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Marco Gordillo <marcopgordillo@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "laravel-mix": "^6.0.43",
+    "laravel-mix-purgecss": "^6.0.0",
+    "postcss": "^8.4.12",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
     "webpack": "^5.70.0"
   }
 }
